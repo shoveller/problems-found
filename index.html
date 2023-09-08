@@ -1,13 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+</head>
+<body>
+<section class="percentage">
+    <div class="percentage-title">
+        <div id="percentage-situation">시나리오 뱅크 등록 현황</div>
+        <div class="calculate-container">
+            <p class="current-number" id="check-number01"></p>
+            <span style="margin: 0 5px"> / </span>
+            <p id="scenario-total-number"></p>
+            <span id="scenario-cal" style="margin-left: 5px"></span>
+        </div>
+    </div>
+
+    <div class="percentage-title">
+        <div id="percentage-situation">아카데미 이수 현황</div>
+        <div class="calculate-container">
+            <p class="current-number" id="check-number02"></p>
+            <span style="margin: 0 5px"> / </span>
+            <p id="academy-total-number"></p>
+            <span id="persentage-cal" style="margin-left: 5px"></span>
+        </div>
+    </div>
+
+    <div class="percentage-title">
+        <div id="percentage-situation">콘텐츠 라이브러리 조회현황</div>
+        <div class="calculate-container">
+            <p class="current-number" id="check-number03"></p>
+            <span style="margin: 0 5px"> / </span>
+            <p id="library-total-number"></p>
+            <span id="library-cal" style="margin-left: 5px"></span>
+        </div>
+    </div>
+
+    <div class="percentage-title">
+        <div id="percentage-situation">역량진단 참여 현황</div>
+        <div class="calculate-container">
+            <p class="current-number" id="check-number04"></p>
+            <span style="margin: 0 5px"> / </span>
+            <p id="assessment-total-number"></p>
+            <span id="assessment-cal" style="margin-left: 5px"></span>
+        </div>
+    </div>
+</section>
+<script type="module" src="/main.js"></script>
+</body>
 </html>
